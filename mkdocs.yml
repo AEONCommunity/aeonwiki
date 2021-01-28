@@ -1,0 +1,46 @@
+site_name: aeon.wiki
+nav:
+  - Blocks: 
+    - Blocks: 'blocks.md'
+  - Currency: 
+    - Currency: 'currency.md'
+  - Mining: 
+    - Mining: 'mining.md'
+  - Transactions: 
+    - Transactions: 'transactions.md'
+  - Social: 
+    - Social: 'social.md'
+  - Software: 
+    - Software: 'software.md'
+  - Wallets: 
+    - Wallets: 'wallets.md'
+theme: 
+  features:
+    - navigation.tabs
+  logo: ae-coin.svg
+  favicon: favicon-32x32.png
+  palette:
+    scheme: default
+  name: material
+  custom_dir: overrides
+  font:
+    text: Ubuntu Mono
+    code: Courier
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/AeonCommunity
+      name: \@AeonCommunity
+    - icon: fontawesome/brands/medium
+      link: https://aeon-community.medium.com
+      name: AEON Community
+    - icon: fontawesome/brands/github
+      link: https://github.com/aeonix/aeon
+      name: Source Code
+markdown_extensions: 
+  - toc:
+     toc_depth: 4
+  - attr_list
+copyright: <a href="https://github.com/ivoryguru/aeonwiki/" style="color:#03a9f4">Edit me</a> or <a href="https://github.com/ivoryguru/aeonwiki/discussions/" style="color:#03a9f4">ask a question</a>. aeon.wiki ecosystem:&nbsp;<a href="https://aeon.wiki" style="color:#03a9f4">wiki</a>, <a href="https://docs.aeon.wiki" style="color:#03a9f4">docs</a>, <a href="https://data.aeon.wiki" style="color:#03a9f4">data</a>. Copyright 2021 aeon.wiki Apache 2.0 licensed.
+extra_css:
+  - extra.css

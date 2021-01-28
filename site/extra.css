@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "lindsay-becker";
+  src: url("LindsayBecker.woff") format('woff');
+  src: url("LindsayBecker.woff2") format('woff2');
+}
+@media screen and (max-width: 76.1875em) {
+  .md-tabs {
+    display: block;
+  }
+}
+.md-sidebar--primary{
+    display: none;
+}
+.md-sidebar--secondary{
+    order: 0;
+    min-width: 12.1rem;
+}
+h1, .md-header-nav__title, .md-nav--primary .md-nav__title[for="__drawer"]{
+  font-family: 'lindsay-becker', Fallback, mono;
+}
+.md-footer-nav{
+  font-family: 'lindsay-becker', Fallback, mono;
+}
+.md-sidebar__scrollwrap::-webkit-scrollbar {
+    width: 0px; 
+    background: transparent;  
+}
+.md-tabs__list{
+    overflow-x:auto;
+}
+.md-typeset .md-button {
+    display: inline;
+    float:right;
+    padding: 0.25em;
+    font-weight: 500;
+    border: 0.01rem solid currentColor;
+    transition: color 125ms,background-color 125ms,border-color 125ms;
+}
+:root {
+  --md-primary-fg-color:        #607d8b;
+  --md-primary-fg-color--dark:  #34515e;
+  --md-primary-fg-color--light: #8eacbb;
+  --md-accent-fg-color: #34515e;
+}
+.label:after{
+    content:'?';
+}
+.label:hover:after{
+    content:'ASK A QUESTION';
+}
+.label_source:hover:after{
+    content:'EDIT THIS ENTRY';
+}
+.label_source:after{
+    content:'...';
+}
